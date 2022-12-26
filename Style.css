@@ -1,0 +1,91 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-content: center;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.li {
+    margin: 0 10px;
+}
+
+.li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+
+.app-img {
+    width: 24px;
+}
+
+.user-img{
+    border-radius: 30px;
+}
+
+/* start main*/
+
+.container {
+    text-align: center;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+
+.google-img {
+    width: 250px;
+}
+
+.input-div{
+    position: relative;
+    /* background: red; */
+}
+.input-div input {
+    margin-top: 30px;
+    width: 40%;
+    border-radius: 20px;
+    border: 0.1px solid rgb(199, 194, 194);
+    outline: none;
+    padding: 13px 10px;
+    content:10px;
+}
+
+.search-img{
+    width: 30px;
+    position: absolute;
+    left: 400px;
+    top: 37px;
+}
+
+.shortcuts{
+    width: 500px;
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+    margin: auto;
+}
+
+.shortcut{
+    margin: 10px;
+}
+
+.shortcut:hover{
+    background-color: rgb(161, 161, 161,0.5);
+}
+
+.shortcut-img{
+    width: 40px;
+} 
+
+.voice-google{
+    width: 30px;
+}
